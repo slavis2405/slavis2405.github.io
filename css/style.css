@@ -1,0 +1,56 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.calculator{
+    margin-top: 2em;
+    background-color: #262626;
+    border-radius: 4%;
+
+}
+.display{
+    width: 415px;
+    height: 150px;  
+    color:#FBF4F4 ; 
+    text-align: right;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+.display .input{
+    font-size: 0.7em;
+   
+}
+.display .output{
+    font-size: 1.8em;
+    margin-top: 0.2em;
+    
+}
+.keys{
+    background-color:#404040 ;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    grid-template-rows: repeat(5,1fr);
+    text-align: center;
+    padding: 0.2em 0.4em;
+    padding-bottom: 1em;
+    border-radius: 5%;
+    
+}
+.key{
+    padding: 0.3em;
+    margin: 0.4em;
+    background-color: #262626;
+    border-radius: 10%;
+    color: #FBF4F4;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #1a1a1a;
+}
+.operator{
+    color: #f03a47;
+}
+.action{
+    color:#1E6F9C;
+}
